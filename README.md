@@ -65,7 +65,11 @@ app\build\outputs\apk\debug의 app-debug.apk을 설치해주세요
 이에 대한 사용자의 의문을 해결하기 위해 각 일정의 돋보기 버튼을 클릭할시 사용자에게 출발지와 도착지에서 걸리는 다양한 경로를 보여주고 사용자가 선택하거나, 해당 경로를 자세히 볼 수 있게 하였다.
 
 ## 사용 설명 영상
-<img src="https://github.com/hwlee9905/Traffic_Calendar_App/assets/127581593/7ef60b13-89e0-40e6-8ed6-354f131e53e2">
+
+
+https://github.com/hwlee9905/Traffic_Calendar_App/assets/127581593/37ad76f0-e1ca-483b-a01d-c9f9a8d1adf9
+
+
 
 
 
