@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_menu1"
+        android:icon="@drawable/ic_calendar"
+        android:title="주소"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/action_menu2"
+        android:icon="@drawable/ic_search"
+        android:title="장소"
+        android:enabled="true"
+        />
+</menu>

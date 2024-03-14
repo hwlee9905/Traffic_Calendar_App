@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <com.example.btnavbar.CustomCalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/custom_calendar_view">
+
+
+    </com.example.btnavbar.CustomCalendarView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:id="@+id/fab_sub1"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/fab_sub2"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="20dp"
+
+            android:layout_marginBottom="15dp"
+
+            android:backgroundTint="#ffffff"
+
+            android:src="@drawable/ic_search"
+
+            android:visibility="invisible"
+
+            app:borderWidth="0dp"
+
+            app:fabSize="normal" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:id="@+id/fab_sub2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/fab_main"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="20dp"
+
+            android:layout_marginBottom="15dp"
+
+            android:backgroundTint="#ffffff"
+
+            android:src="@drawable/ic_search"
+
+            android:visibility="invisible"
+
+            app:borderWidth="0dp"
+
+            app:fabSize="normal" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:visibility="invisible"
+
+            android:id="@+id/fab_main"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginRight="20dp"
+
+            android:layout_marginBottom="20dp"
+
+            android:backgroundTint="#009688"
+
+            android:contentDescription="TODO"
+
+            android:src="@drawable/ic_search"
+
+            app:borderWidth="0dp"
+            app:fabSize="normal" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/weather"
+        android:icon="@drawable/ic_weather"
+        android:title="주소"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="장소"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/option"
+        android:icon="@drawable/ic_search"
+        android:title="기타"
+        android:enabled="true"
+        />
+
+</menu>
