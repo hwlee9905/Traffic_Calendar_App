@@ -14,7 +14,7 @@ GPS를 사용해 해당 지역의 날씨정보를 제공하고,
 
 SQLitle는 안드로이드에 기본적으로 내장된 lightweight 및 파일 기반 데이터베이스이므로 별도의 설치가 필요하지 않습니다.
 
-\BtNavBar_fin\BtNavBar\app\build\outputs\apk\debug의 app-debug.apk을 설치해주세요
+app\build\outputs\apk\debug의 app-debug.apk을 설치해주세요
 
 ## Deployment
 
