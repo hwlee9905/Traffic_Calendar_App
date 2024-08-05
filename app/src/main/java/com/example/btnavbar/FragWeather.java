@@ -71,7 +71,7 @@ public class FragWeather extends Fragment{
         if(requestQueue == null){
             requestQueue = Volley.newRequestQueue(view.getContext());
         }
-        ((Activity) getContext()).getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+
 
         homeRL = view.findViewById(R.id.idRLHome);
         loadingPB = view.findViewById(R.id.idPBLoading);
