@@ -13,17 +13,9 @@ GPS를 사용해 해당 지역의 날씨정보를 제공하고,
 ## Installing
 
 SQLitle는 안드로이드에 기본적으로 내장된 lightweight 및 파일 기반 데이터베이스이므로 별도의 설치가 필요하지 않습니다.
+해당 프로젝트는 배포되지 않았습니다.
+별도로 app\build\outputs\apk\debug의 app-debug.apk를 다운받아 안드로이드 운영체제의 기기에서 설치해주세요
 
-app\build\outputs\apk\debug의 app-debug.apk을 설치해주세요
-
-## Deployment
-
-1. 데이터베이스 생성 및 ERD작성
-2. 개발 제안서 제출 및 교수 컨설팅 2회 실시 
-3. 설계문서, UI보고서 설계
-4. 데이터베이스 및 UI수정
-5. JDBC, HTML, CSS 작성
-6. 실행 시 오류 및 충돌 개선
 ## 기능 구현
 **Weather Layout**</br>
 ![image](https://github.com/hwlee9905/Traffic_Calendar_App/assets/127581593/638010ab-97b0-4c0c-abe3-41ddc598e6e1)
