@@ -37,7 +37,7 @@ SQLitle는 안드로이드에 기본적으로 내장된 lightweight 및 파일 �
 
 주로 사용되는 앱에서의 알고리즘은 이를 자동으로 인식하고 사용자가 입력하는 형식에 따라 자동으로 주소 API를 사용해서 정보를 보여줄지, 장소 API를 사용해서 정보를 보여줄지 결정한다.
 
-이와 같은 알고리즘을 원시적으로나마 구현하기 위해 사용자가 알고 있는 정보가 해당 장소의 이름인지, 주소인지 선택하게 함으로써 복잡한 해당 기능을 간단하게 구현해 보았다.
+이와 같은 알고리즘을 원시적으로나마 구현하기 위해 사용자가 알고 있는 정보가 해당 장소의 이름인지, 주소인지 선택하게 함으로써 복잡한 해당 기능을 간단하게 구현해 보았다.</br>
 ![크기변환 KakaoTalk_20240806_035640965_04](https://github.com/user-attachments/assets/c8be3217-4fad-4d75-b8e5-c85061fc7698)
 ![크기변환 KakaoTalk_20240806_035640965_02](https://github.com/user-attachments/assets/2212fa49-e5f1-4bcd-9805-a155a7f3d29a)
 ![크기변환 KakaoTalk_20240806_035640965_03](https://github.com/user-attachments/assets/a7c4bc5e-dbdf-444f-9494-a2e6e5bdd8b8)
@@ -52,9 +52,10 @@ SQLitle는 안드로이드에 기본적으로 내장된 lightweight 및 파일 �
 
 등록된 일정은 입력한 출발지와 도착지, 날짜 정보를 바탕으로 해당 날짜를 longclick 해서 보여지는 Recylerview에서 소모시간이 보여진다. 
 하지만 사용자 입장에서는 해당 일정의 출발지와 도착지에서 걸리는 소모시간에 대해서 의문을 가질 수 있다. </br>
-
 </br>
-![크기변환 KakaoTalk_20240806_035640965_01](https://github.com/user-attachments/assets/2150b9fc-0a04-40e9-9c4e-a7346f77a920)
+
+![크기변환 KakaoTalk_20240806_035640965_01](https://github.com/user-attachments/assets/4998e76d-9065-4e5d-b4ec-6ee1191d736f)
+
 
 이에 대한 사용자의 의문을 해결하기 위해 각 일정의 돋보기 버튼을 클릭할시 사용자에게 출발지와 도착지에서 걸리는 다양한 경로를 보여주고 사용자가 선택하거나, 해당 경로를 자세히 볼 수 있게 하였다.
 
